@@ -1,0 +1,116 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+DrawOnly=//mt/home/mbridge/Work/tmp/Analysis.yoda/MyAnalysis/Z_pT
+LegendOnly=//mt/home/mbridge/Work/tmp/Analysis.yoda/MyAnalysis/Z_pT
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/tmp/Analysis.yoda/MyAnalysis/Z_pT
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/tmp/Analysis.yoda/MyAnalysis/Z_pT
+ScaledBy=1.02848259214163984e+00
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+nan	nan	nan	nan	nan
+# END HISTO1D
+

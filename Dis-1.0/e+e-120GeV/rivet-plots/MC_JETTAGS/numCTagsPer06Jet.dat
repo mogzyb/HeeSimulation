@@ -1,0 +1,23 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Number of $c$ hadron tags per $R=0.6$ jet
+XLabel=$N_{c\,\mathrm{tag}}$
+DrawOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETTAGS/numCTagsPer06Jet
+LegendOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETTAGS/numCTagsPer06Jet
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETTAGS/numCTagsPer06Jet
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETTAGS/numCTagsPer06Jet
+ScaledBy=3.51213100932384778e-11
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.303178e-01	2.795066e-04	2.795066e-04
+5.000000e-01	1.500000e+00	3.314311e-01	2.026958e-04	2.026958e-04
+1.500000e+00	2.500000e+00	3.646442e-02	6.724461e-05	6.724461e-05
+2.500000e+00	3.500000e+00	1.654967e-03	1.432800e-05	1.432800e-05
+3.500000e+00	4.500000e+00	1.263223e-04	3.957920e-06	3.957920e-06
+# END HISTO1D
+

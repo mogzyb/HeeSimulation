@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Plots from Rivet analyses</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body><h2>Plots from Rivet analyses</h2>
+
+
+<h3><a href="MC_FSPARTICLES/index.html" style="text-decoration:none;">Final-state particle distributions (MC_FSPARTICLES)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Generic analysis of typical per-particle distributions such as $\eta$, $y$, $pT$, $\phi$, etc.</p>
+
+<h3><a href="MC_GENERIC/index.html" style="text-decoration:none;">Generic MC testing analysis -- DEPRECATED, use MC_FSPARTICLES (MC_GENERIC)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Generic analysis of typical event distributions such as $\eta$, $y$, $pT$, $\phi$\dots</p>
+
+<h3><a href="MC_HHJETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for $HH$ (stable) + jets production (MC_HHJETS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">The available observables are the Higgs boson pair invariant mass, the separation between the two Higgs bosons, pT of the di-Higgs (any, hardest, second hardest), pT and pseudorapidity of Higgs bosons (any, hardest, second hardest), pT of jets 1--4, jet multiplicity, $\Delta\eta(h, \text{jet1})$, $\Delta R(\text{jet2}, \text{jet3})$, differential jet rates 0-&gt;1, 1-&gt;2, 2-&gt;3, 3-&gt;4, and integrated 0--4 jet rates.</p>
+
+<h3><a href="MC_HINC/index.html" style="text-decoration:none;">Monte Carlo validation observables for $h[\tau^+ \, \tau^-]$ production (MC_HINC)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Monte Carlo validation observables for $h[\tau^+ \, \tau^-]$ production</p>
+
+<h3><a href="MC_HJETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for $h[\tau^+ \, \tau^-]$ + jets production (MC_HJETS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">The available observables are the Higgs mass, pT of jets 1--4, jet multiplicity, $\Delta\eta(h, \text{jet1})$, $\Delta R(\text{jet2}, \text{jet3})$, differential jet rates 0-&gt;1, 1-&gt;2, 2-&gt;3, 3-&gt;4, and integrated 0--4 jet rates.</p>
+
+<h3><a href="MC_IDENTIFIED/index.html" style="text-decoration:none;">MC testing analysis for identified particle distributions (MC_IDENTIFIED)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Plotting of distributions of PID codes (all/stable/unstable) and ID-specific distributions such as the $|\eta|$ of $K$, $\pi$ and $\Lambda$ mesons.</p>
+
+<h3><a href="MC_JETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for jet production (MC_JETS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Jets with $p_\perp&gt;20$ GeV are constructed with an anti-$k_\perp$ jet finder with $R=0.4$ and projected onto many different observables.</p>
+
+<h3><a href="MC_JETTAGS/index.html" style="text-decoration:none;">Monte Carlo validation analysis for ideal heavy flavour tagging observables (MC_JETTAGS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Plots to study theoretical tagging of heavy flavour hadrons in jets.</p>
+
+<h3><a href="MC_OPTIONS/index.html" style="text-decoration:none;">MC_OPTIONS</a></h3>
+<p></p>
+<p style="font-size:smaller;">Just an example of the options system in action.</p>
+
+<h3><a href="MC_PARTONICTOPS/index.html" style="text-decoration:none;">Plot partonic top properties (requires tops in event record) (MC_PARTONICTOPS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Just looks for final, i.e. post-QCD and weakly decaying, top quarks in the event record and plots their multiplicities, transverse momentum spectra, and rapidity distribution, both inclusively and classified by decay mode.</p>
+
+<h3><a href="MC_PDFS/index.html" style="text-decoration:none;">Analysis to study PDF sampling in any MC run (MC_PDFS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Plotting of PDF sampling info, such as the $Q^2$ and both $x$ values of the sampling (aggregated and distinguished as max/min, and some correlations with event properties.</p>
+
+<h3><a href="MC_WEIGHTS/index.html" style="text-decoration:none;">MC analysis for distributions of event weights (MC_WEIGHTS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Analysis for studying event weight distributions and fraction of events with negative weights. This analysis will not produce sensible distributions in case of correlated NLO sub-events.</p>
+
+<h3><a href="MC_XS/index.html" style="text-decoration:none;">MC analysis for process total cross section (MC_XS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Analysis for bookkeeping of the total cross section, number of generated events and the ratio of events with positive and negative weights. This analysis will not produce sensible distributions in case of correlated NLO sub-events.</p>
+
+<h3><a href="MC_ZINC/index.html" style="text-decoration:none;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ production (MC_ZINC)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ production</p>
+
+<h3><a href="MC_ZJETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ + jets production (MC_ZJETS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Available observables are the pT of jets 1-4, jet multiplicity, $\Delta\eta(Z, \text{jet1})$, $\Delta R(\text{jet2}, \text{jet3})$, differential jet rates 0-&gt;1, 1-&gt;2, 2-&gt;3, 3-&gt;4, and integrated 0--4 jet rates.</p>
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Wednesday, 31. May 2023 10:10AM</p>
+<p>Created with command: <pre>rivet-mkhtml Analysis.yoda</pre></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+LegendAlign=r
+Title=Negative weight fraction
+XLabel=
+YLabel=$\sum_{w_i<0} |w_i| / \sum |w_i|$
+ShowZero=0
+XCustomMajorTicks=0.5	$f_{w<0}$
+XMinorTickMarks=0
+DrawOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_WEIGHTS/xsfraction_neg
+LegendOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_WEIGHTS/xsfraction_neg
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_WEIGHTS/xsfraction_neg
+ErrorBreakdown={0: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_WEIGHTS/xsfraction_neg
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

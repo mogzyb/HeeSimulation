@@ -1,0 +1,29 @@
+(run){
+  ANALYSIS Rivet
+  % general settings
+  EVENTS 5M;
+  HARD_DECAYS=1;
+  HDH_STATUS[23,13,-13]=2;
+  HDH_STATUS[25,5,-5]=2;
+  HDH_STATUS[25,21,21]=2;
+  % model parameters
+  ALPHAS(MZ) 0.1188;
+  ORDER_ALPHAS 1;
+  PDF_LIBRARY None
+  % collider setup
+  BEAM_1  11; BEAM_ENERGY_1 120;
+  BEAM_2 -11; BEAM_ENERGY_2 120;
+}(run)
+
+(processes){
+  Process 11 -11 -> 23 25;
+  Order (*,2);
+  Print_Graphs;
+  End process;
+}(processes)
+
+(analysis){
+  BEGIN_RIVET {
+   -a MC_FSPARTICLES MC_XS
+ } END_RIVET;
+}(analysis)

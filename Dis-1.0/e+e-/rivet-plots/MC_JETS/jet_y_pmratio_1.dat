@@ -1,0 +1,44 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Rapidity $+/-$ ratio of first jet
+XLabel=$|y(\mathrm{jet~1}|$
+YLabel=$y(\mathrm{jet~1})_+/y(\mathrm{jet~1})_-$
+DrawOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETS/jet_y_pmratio_1
+LegendOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETS/jet_y_pmratio_1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETS/jet_y_pmratio_1
+ErrorBreakdown={0: {"": {up: 0.050915956250282966, dn: 0.050915956250282966}}, 1: {"": {up: 0.050873461187783242, dn: 0.050873461187783242}}, 2: {"": {up: 0.048585697441065209, dn: 0.048585697441065209}}, 3: {"": {up: 0.055301570179676636, dn: 0.055301570179676636}}, 4: {"": {up: 0.060240906046985246, dn: 0.060240906046985246}}, 5: {"": {up: 0.085016341255326228, dn: 0.085016341255326228}}, 6: {"": {up: 0.13018891098082364, dn: 0.13018891098082364}}, 7: {"": {up: 0.38490017945975041, dn: 0.38490017945975041}}, 8: {"": {up: .nan, dn: .nan}}, 9: {"": {up: .nan, dn: .nan}}, 10: {"": {up: .nan, dn: .nan}}, 11: {"": {up: .nan, dn: .nan}}, 12: {"": {up: .nan, dn: .nan}}, 13: {"": {up: .nan, dn: .nan}}, 14: {"": {up: .nan, dn: .nan}}, 15: {"": {up: .nan, dn: .nan}}, 16: {"": {up: .nan, dn: .nan}}, 17: {"": {up: .nan, dn: .nan}}, 18: {"": {up: .nan, dn: .nan}}, 19: {"": {up: .nan, dn: .nan}}, 20: {"": {up: .nan, dn: .nan}}, 21: {"": {up: .nan, dn: .nan}}, 22: {"": {up: .nan, dn: .nan}}, 23: {"": {up: .nan, dn: .nan}}, 24: {"": {up: .nan, dn: .nan}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETS/jet_y_pmratio_1
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	2.000000e-01	1.017415e+00	5.091596e-02	5.091596e-02
+2.000000e-01	4.000000e-01	1.024926e+00	5.087346e-02	5.087346e-02
+4.000000e-01	6.000000e-01	9.533498e-01	4.858570e-02	4.858570e-02
+6.000000e-01	8.000000e-01	9.630426e-01	5.530157e-02	5.530157e-02
+8.000000e-01	1.000000e+00	9.564189e-01	6.024091e-02	6.024091e-02
+1.000000e+00	1.200000e+00	1.057013e+00	8.501634e-02	8.501634e-02
+1.200000e+00	1.400000e+00	1.000000e+00	1.301889e-01	1.301889e-01
+1.400000e+00	1.600000e+00	3.333333e-01	3.849002e-01	3.849002e-01
+1.600000e+00	1.800000e+00	nan	nan	nan
+1.800000e+00	2.000000e+00	nan	nan	nan
+2.000000e+00	2.200000e+00	nan	nan	nan
+2.200000e+00	2.400000e+00	nan	nan	nan
+2.400000e+00	2.600000e+00	nan	nan	nan
+2.600000e+00	2.800000e+00	nan	nan	nan
+2.800000e+00	3.000000e+00	nan	nan	nan
+3.000000e+00	3.200000e+00	nan	nan	nan
+3.200000e+00	3.400000e+00	nan	nan	nan
+3.400000e+00	3.600000e+00	nan	nan	nan
+3.600000e+00	3.800000e+00	nan	nan	nan
+3.800000e+00	4.000000e+00	nan	nan	nan
+4.000000e+00	4.200000e+00	nan	nan	nan
+4.200000e+00	4.400000e+00	nan	nan	nan
+4.400000e+00	4.600000e+00	nan	nan	nan
+4.600000e+00	4.800000e+00	nan	nan	nan
+4.800000e+00	5.000000e+00	nan	nan	nan
+# END HISTO1D
+

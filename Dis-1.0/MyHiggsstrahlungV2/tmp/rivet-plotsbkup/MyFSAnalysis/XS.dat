@@ -1,0 +1,42 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+DrawOnly=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbg.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisb.yoda/MyFSAnalysis/XS
+LegendOnly=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbg.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisb.yoda/MyFSAnalysis/XS
+RatioPlot=1
+RatioPlotReference=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS
+ErrorBreakdown={0: {"": {up: 2.4766999e-06, dn: 2.4766999e-06}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.640783e-03	2.476700e-06	2.476700e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbg.yoda/MyFSAnalysis/XS
+ErrorBreakdown={0: {"": {up: 1.84708561e-06, dn: 1.84708561e-06}}}
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbg.yoda/MyFSAnalysis/XS
+Title=Analysisbg
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	5.356415e-03	1.847086e-06	1.847086e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisb.yoda/MyFSAnalysis/XS
+ErrorBreakdown={0: {"": {up: 1.60838765e-06, dn: 1.60838765e-06}}}
+LineColor=green
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisb.yoda/MyFSAnalysis/XS
+Title=Analysisb
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.663398e-03	1.608388e-06	1.608388e-06
+# END HISTO1D
+

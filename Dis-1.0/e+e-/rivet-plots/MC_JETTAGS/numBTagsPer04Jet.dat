@@ -1,0 +1,23 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Number of $b$ hadron tags per $R=0.4$ jet
+XLabel=$N_{b\,\mathrm{tag}}$
+DrawOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numBTagsPer04Jet
+LegendOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numBTagsPer04Jet
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numBTagsPer04Jet
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numBTagsPer04Jet
+ScaledBy=4.16481299520453472e-11
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	8.025636e-01	7.503491e-03	7.503491e-03
+5.000000e-01	1.500000e+00	1.970861e-01	3.717697e-03	3.717697e-03
+1.500000e+00	2.500000e+00	2.802701e-04	1.401351e-04	1.401351e-04
+2.500000e+00	3.500000e+00	7.006754e-05	7.006754e-05	7.006754e-05
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

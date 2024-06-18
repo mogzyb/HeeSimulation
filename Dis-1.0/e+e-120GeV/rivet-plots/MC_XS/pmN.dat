@@ -1,0 +1,27 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of positive and negative weighted events
+XLabel=$\mathrm{sgn}(w)$
+YLabel=$N_\pm$
+ShowZero=0
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+XMinorTickMarks=0
+XMin=-1
+XMax=1
+LegendXPos=0.05
+DrawOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_XS/pmN
+LegendOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_XS/pmN
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_XS/pmN
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_XS/pmN
+ScaledBy=1.00000000000000000e+00
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+0.000000e+00	1.000000e+00	5.000000e+06	2.236068e+03	2.236068e+03
+# END HISTO1D
+

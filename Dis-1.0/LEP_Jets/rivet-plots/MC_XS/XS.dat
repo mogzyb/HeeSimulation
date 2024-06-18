@@ -1,0 +1,24 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Total generated cross section
+XLabel=
+YLabel=$\sigma_\mathrm{total}$ [pb]
+ShowZero=0
+XCustomMajorTicks=0.	$\quad$
+XMinorTickMarks=0
+LegendAlign=r
+DrawOnly=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/XS
+LegendOnly=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/XS
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/XS
+ErrorBreakdown={0: {"": {up: 92.427621299999998, dn: 92.427621299999998}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/XS
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	2.948394e+04	9.242762e+01	9.242762e+01
+# END HISTO1D
+

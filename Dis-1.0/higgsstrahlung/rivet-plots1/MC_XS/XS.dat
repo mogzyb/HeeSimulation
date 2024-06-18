@@ -1,0 +1,24 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Total generated cross section
+XLabel=
+YLabel=$\sigma_\mathrm{total}$ [pb]
+ShowZero=0
+XCustomMajorTicks=0.	$\quad$
+XMinorTickMarks=0
+LegendAlign=r
+DrawOnly=//mt/home/mbridge/Work/higgsstrahlung/Analysis.yoda/MC_XS/XS
+LegendOnly=//mt/home/mbridge/Work/higgsstrahlung/Analysis.yoda/MC_XS/XS
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/higgsstrahlung/Analysis.yoda/MC_XS/XS
+ErrorBreakdown={0: {"": {up: 1.7313451999999999e-06, dn: 1.7313451999999999e-06}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/higgsstrahlung/Analysis.yoda/MC_XS/XS
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.254884e-03	1.731345e-06	1.731345e-06
+# END HISTO1D
+

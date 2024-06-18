@@ -1,0 +1,28 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of jet multiplicity
+XLabel=$N_{\mathrm{jet}}$
+YLabel=$\sigma(\geq N_{\mathrm{jet}})/\sigma(\geq N_{\mathrm{jet}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_multi_ratio
+LegendOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_multi_ratio
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_multi_ratio
+ErrorBreakdown={0: {"": {up: 0.00075955235663337304, dn: 0.00075955235663337304}}, 1: {"": {up: 0.00089166112593528225, dn: 0.00089166112593528225}}, 2: {"": {up: 0.00018599726970977028, dn: 0.00018599726970977028}}, 3: {"": {up: 0.00075621631192201836, dn: 0.00075621631192201836}}, 4: {"": {up: 0.0016476044387659667, dn: 0.0016476044387659667}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_multi_ratio
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	8.022953e-01	7.595524e-04	7.595524e-04
+1.500000e+00	2.500000e+00	8.587679e-01	8.916611e-04	8.916611e-04
+2.500000e+00	3.500000e+00	7.342956e-02	1.859973e-04	1.859973e-04
+3.500000e+00	4.500000e+00	8.630726e-02	7.562163e-04	7.562163e-04
+4.500000e+00	5.500000e+00	4.099063e-02	1.647604e-03	1.647604e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

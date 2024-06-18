@@ -1,0 +1,56 @@
+
+*** These modified files were found in JOE when it aborted on Wed May 31 00:32:14 2023
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+MyAnalysis
+
+*** File '(Unnamed)'
+MC_FSPARTICLES
+
+*** File '(Unnamed)'
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat 
+/mt/home/mbridge/Work/e+e-125GeV/Run.dat
+/mt/home/mbridge/Work/e+e-125GeV/Run.dat
+/mt/home/mbridge/Work/higgsstrahlung/Run.dat
+/mt/home/mbridge/Work/higgsstrahlung/Run.dat
+/mt/home/mbridge/Work/higgsstrahlung/Run.dat
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jpicorc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jpicorc
+
+*** These modified files were found in JOE when it aborted on Wed Jun  7 13:31:23 2023
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+MyAnalysis
+
+*** File '(Unnamed)'
+MC_FSPARTICLES
+
+*** File '(Unnamed)'
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat 
+/mt/home/mbridge/Work/e+e-125GeV/Run.dat
+/mt/home/mbridge/Work/e+e-125GeV/Run.dat
+/mt/home/mbridge/Work/higgsstrahlung/Run.dat
+/mt/home/mbridge/Work/higgsstrahlung/Run.dat
+/mt/home/mbridge/Work/higgsstrahlung/Results.db
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

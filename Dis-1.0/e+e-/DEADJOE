@@ -1,0 +1,28 @@
+
+*** These modified files were found in JOE when it aborted on Wed May 31 00:20:40 2023
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+MyAnalysis
+
+*** File '(Unnamed)'
+MC_FSPARTICLES
+
+*** File '(Unnamed)'
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat
+/mt/home/mbridge/Work/h2bb/Run.dat 
+/mt/home/mbridge/Work/e+e-/Run.dat
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jpicorc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jpicorc

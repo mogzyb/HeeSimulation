@@ -1,0 +1,47 @@
+(run){
+  ANALYSIS Rivet
+  % general settings
+  EVENTS 50000;
+  HARD_DECAYS=1;
+
+  MODEL = HEFT
+  MASSIVE[5] = 1
+  MASSIVE[4] = 1
+  MASSIVE[3] = 1
+  MASSIVE[15] = 1
+  MASSIVE[13] = 1
+
+
+  %HDH_STATUS[23,13,-13]=2;
+  %HDH_STATUS[25,5,-5]=2;
+  %HDH_STATUS[25,21,21]=2;
+  
+HDH_WIDTH[25,5,-5]=2.35e-3
+  HDH_WIDTH[25,15,-15]=2.57e-4
+  HDH_WIDTH[25,13,-13]=8.91e-7
+  HDH_WIDTH[25,4,-4]=1.18e-4
+  HDH_WIDTH[25,3,-3]=1.00e-6
+  HDH_WIDTH[25,21,21]=3.49e-4
+  HDH_WIDTH[25,22,22]=9.28e-6
+
+  % model parameters
+  ALPHAS(MZ) 0.1188;
+  ORDER_ALPHAS 1;
+  PDF_LIBRARY None
+  % collider setup
+  BEAM_1  11; BEAM_ENERGY_1 120;
+  BEAM_2 -11; BEAM_ENERGY_2 120;
+}(run)
+
+(processes){
+  Process 11 -11 -> 12 -12 25;
+  Order (*,3);
+  Print_Graphs;
+  End process;
+}(processes)
+
+(analysis){
+  BEGIN_RIVET {
+   -a MyFSAnalysis MyHAnalysis MyZAnalysis
+ } END_RIVET;
+}(analysis)

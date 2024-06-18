@@ -1,0 +1,116 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+DrawOnly=//home/mogzyb/Work/Dis-2.0/Hvv/Analysis.yoda/MyFSAnalysis/RapidityPMRatio
+LegendOnly=//home/mogzyb/Work/Dis-2.0/Hvv/Analysis.yoda/MyFSAnalysis/RapidityPMRatio
+# END PLOT
+
+# BEGIN HISTO1D //home/mogzyb/Work/Dis-2.0/Hvv/Analysis.yoda/MyFSAnalysis/RapidityPMRatio
+ErrorBreakdown={0: {"": {up: .nan, dn: .nan}}, 1: {"": {up: .nan, dn: .nan}}, 2: {"": {up: .nan, dn: .nan}}, 3: {"": {up: .nan, dn: .nan}}, 4: {"": {up: .nan, dn: .nan}}, 5: {"": {up: .nan, dn: .nan}}, 6: {"": {up: .nan, dn: .nan}}, 7: {"": {up: .nan, dn: .nan}}, 8: {"": {up: .nan, dn: .nan}}, 9: {"": {up: .nan, dn: .nan}}, 10: {"": {up: .nan, dn: .nan}}, 11: {"": {up: .nan, dn: .nan}}, 12: {"": {up: .nan, dn: .nan}}, 13: {"": {up: .nan, dn: .nan}}, 14: {"": {up: .nan, dn: .nan}}, 15: {"": {up: .nan, dn: .nan}}, 16: {"": {up: .nan, dn: .nan}}, 17: {"": {up: .nan, dn: .nan}}, 18: {"": {up: .nan, dn: .nan}}, 19: {"": {up: .nan, dn: .nan}}, 20: {"": {up: .nan, dn: .nan}}, 21: {"": {up: .nan, dn: .nan}}, 22: {"": {up: .nan, dn: .nan}}, 23: {"": {up: .nan, dn: .nan}}, 24: {"": {up: .nan, dn: .nan}}, 25: {"": {up: .nan, dn: .nan}}, 26: {"": {up: .nan, dn: .nan}}, 27: {"": {up: .nan, dn: .nan}}, 28: {"": {up: .nan, dn: .nan}}, 29: {"": {up: .nan, dn: .nan}}, 30: {"": {up: .nan, dn: .nan}}, 31: {"": {up: .nan, dn: .nan}}, 32: {"": {up: .nan, dn: .nan}}, 33: {"": {up: .nan, dn: .nan}}, 34: {"": {up: .nan, dn: .nan}}, 35: {"": {up: .nan, dn: .nan}}, 36: {"": {up: .nan, dn: .nan}}, 37: {"": {up: .nan, dn: .nan}}, 38: {"": {up: .nan, dn: .nan}}, 39: {"": {up: .nan, dn: .nan}}, 40: {"": {up: .nan, dn: .nan}}, 41: {"": {up: .nan, dn: .nan}}, 42: {"": {up: .nan, dn: .nan}}, 43: {"": {up: .nan, dn: .nan}}, 44: {"": {up: .nan, dn: .nan}}, 45: {"": {up: .nan, dn: .nan}}, 46: {"": {up: .nan, dn: .nan}}, 47: {"": {up: .nan, dn: .nan}}, 48: {"": {up: .nan, dn: .nan}}, 49: {"": {up: .nan, dn: .nan}}, 50: {"": {up: .nan, dn: .nan}}, 51: {"": {up: .nan, dn: .nan}}, 52: {"": {up: .nan, dn: .nan}}, 53: {"": {up: .nan, dn: .nan}}, 54: {"": {up: .nan, dn: .nan}}, 55: {"": {up: .nan, dn: .nan}}, 56: {"": {up: .nan, dn: .nan}}, 57: {"": {up: .nan, dn: .nan}}, 58: {"": {up: .nan, dn: .nan}}, 59: {"": {up: .nan, dn: .nan}}, 60: {"": {up: .nan, dn: .nan}}, 61: {"": {up: .nan, dn: .nan}}, 62: {"": {up: .nan, dn: .nan}}, 63: {"": {up: .nan, dn: .nan}}, 64: {"": {up: .nan, dn: .nan}}, 65: {"": {up: .nan, dn: .nan}}, 66: {"": {up: .nan, dn: .nan}}, 67: {"": {up: .nan, dn: .nan}}, 68: {"": {up: .nan, dn: .nan}}, 69: {"": {up: .nan, dn: .nan}}, 70: {"": {up: .nan, dn: .nan}}, 71: {"": {up: .nan, dn: .nan}}, 72: {"": {up: .nan, dn: .nan}}, 73: {"": {up: .nan, dn: .nan}}, 74: {"": {up: .nan, dn: .nan}}, 75: {"": {up: .nan, dn: .nan}}, 76: {"": {up: .nan, dn: .nan}}, 77: {"": {up: .nan, dn: .nan}}, 78: {"": {up: .nan, dn: .nan}}, 79: {"": {up: .nan, dn: .nan}}, 80: {"": {up: .nan, dn: .nan}}, 81: {"": {up: .nan, dn: .nan}}, 82: {"": {up: .nan, dn: .nan}}, 83: {"": {up: .nan, dn: .nan}}, 84: {"": {up: .nan, dn: .nan}}, 85: {"": {up: .nan, dn: .nan}}, 86: {"": {up: .nan, dn: .nan}}, 87: {"": {up: .nan, dn: .nan}}, 88: {"": {up: .nan, dn: .nan}}, 89: {"": {up: .nan, dn: .nan}}, 90: {"": {up: .nan, dn: .nan}}, 91: {"": {up: .nan, dn: .nan}}, 92: {"": {up: .nan, dn: .nan}}, 93: {"": {up: .nan, dn: .nan}}, 94: {"": {up: .nan, dn: .nan}}, 95: {"": {up: .nan, dn: .nan}}, 96: {"": {up: .nan, dn: .nan}}, 97: {"": {up: .nan, dn: .nan}}, 98: {"": {up: .nan, dn: .nan}}, 99: {"": {up: .nan, dn: .nan}}}
+LineColor=red
+LineStyle=solid
+Path=//home/mogzyb/Work/Dis-2.0/Hvv/Analysis.yoda/MyFSAnalysis/RapidityPMRatio
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	5.000000e-02	nan	nan	nan
+5.000000e-02	1.000000e-01	nan	nan	nan
+1.000000e-01	1.500000e-01	nan	nan	nan
+1.500000e-01	2.000000e-01	nan	nan	nan
+2.000000e-01	2.500000e-01	nan	nan	nan
+2.500000e-01	3.000000e-01	nan	nan	nan
+3.000000e-01	3.500000e-01	nan	nan	nan
+3.500000e-01	4.000000e-01	nan	nan	nan
+4.000000e-01	4.500000e-01	nan	nan	nan
+4.500000e-01	5.000000e-01	nan	nan	nan
+5.000000e-01	5.500000e-01	nan	nan	nan
+5.500000e-01	6.000000e-01	nan	nan	nan
+6.000000e-01	6.500000e-01	nan	nan	nan
+6.500000e-01	7.000000e-01	nan	nan	nan
+7.000000e-01	7.500000e-01	nan	nan	nan
+7.500000e-01	8.000000e-01	nan	nan	nan
+8.000000e-01	8.500000e-01	nan	nan	nan
+8.500000e-01	9.000000e-01	nan	nan	nan
+9.000000e-01	9.500000e-01	nan	nan	nan
+9.500000e-01	1.000000e+00	nan	nan	nan
+1.000000e+00	1.050000e+00	nan	nan	nan
+1.050000e+00	1.100000e+00	nan	nan	nan
+1.100000e+00	1.150000e+00	nan	nan	nan
+1.150000e+00	1.200000e+00	nan	nan	nan
+1.200000e+00	1.250000e+00	nan	nan	nan
+1.250000e+00	1.300000e+00	nan	nan	nan
+1.300000e+00	1.350000e+00	nan	nan	nan
+1.350000e+00	1.400000e+00	nan	nan	nan
+1.400000e+00	1.450000e+00	nan	nan	nan
+1.450000e+00	1.500000e+00	nan	nan	nan
+1.500000e+00	1.550000e+00	nan	nan	nan
+1.550000e+00	1.600000e+00	nan	nan	nan
+1.600000e+00	1.650000e+00	nan	nan	nan
+1.650000e+00	1.700000e+00	nan	nan	nan
+1.700000e+00	1.750000e+00	nan	nan	nan
+1.750000e+00	1.800000e+00	nan	nan	nan
+1.800000e+00	1.850000e+00	nan	nan	nan
+1.850000e+00	1.900000e+00	nan	nan	nan
+1.900000e+00	1.950000e+00	nan	nan	nan
+1.950000e+00	2.000000e+00	nan	nan	nan
+2.000000e+00	2.050000e+00	nan	nan	nan
+2.050000e+00	2.100000e+00	nan	nan	nan
+2.100000e+00	2.150000e+00	nan	nan	nan
+2.150000e+00	2.200000e+00	nan	nan	nan
+2.200000e+00	2.250000e+00	nan	nan	nan
+2.250000e+00	2.300000e+00	nan	nan	nan
+2.300000e+00	2.350000e+00	nan	nan	nan
+2.350000e+00	2.400000e+00	nan	nan	nan
+2.400000e+00	2.450000e+00	nan	nan	nan
+2.450000e+00	2.500000e+00	nan	nan	nan
+2.500000e+00	2.550000e+00	nan	nan	nan
+2.550000e+00	2.600000e+00	nan	nan	nan
+2.600000e+00	2.650000e+00	nan	nan	nan
+2.650000e+00	2.700000e+00	nan	nan	nan
+2.700000e+00	2.750000e+00	nan	nan	nan
+2.750000e+00	2.800000e+00	nan	nan	nan
+2.800000e+00	2.850000e+00	nan	nan	nan
+2.850000e+00	2.900000e+00	nan	nan	nan
+2.900000e+00	2.950000e+00	nan	nan	nan
+2.950000e+00	3.000000e+00	nan	nan	nan
+3.000000e+00	3.050000e+00	nan	nan	nan
+3.050000e+00	3.100000e+00	nan	nan	nan
+3.100000e+00	3.150000e+00	nan	nan	nan
+3.150000e+00	3.200000e+00	nan	nan	nan
+3.200000e+00	3.250000e+00	nan	nan	nan
+3.250000e+00	3.300000e+00	nan	nan	nan
+3.300000e+00	3.350000e+00	nan	nan	nan
+3.350000e+00	3.400000e+00	nan	nan	nan
+3.400000e+00	3.450000e+00	nan	nan	nan
+3.450000e+00	3.500000e+00	nan	nan	nan
+3.500000e+00	3.550000e+00	nan	nan	nan
+3.550000e+00	3.600000e+00	nan	nan	nan
+3.600000e+00	3.650000e+00	nan	nan	nan
+3.650000e+00	3.700000e+00	nan	nan	nan
+3.700000e+00	3.750000e+00	nan	nan	nan
+3.750000e+00	3.800000e+00	nan	nan	nan
+3.800000e+00	3.850000e+00	nan	nan	nan
+3.850000e+00	3.900000e+00	nan	nan	nan
+3.900000e+00	3.950000e+00	nan	nan	nan
+3.950000e+00	4.000000e+00	nan	nan	nan
+4.000000e+00	4.050000e+00	nan	nan	nan
+4.050000e+00	4.100000e+00	nan	nan	nan
+4.100000e+00	4.150000e+00	nan	nan	nan
+4.150000e+00	4.200000e+00	nan	nan	nan
+4.200000e+00	4.250000e+00	nan	nan	nan
+4.250000e+00	4.300000e+00	nan	nan	nan
+4.300000e+00	4.350000e+00	nan	nan	nan
+4.350000e+00	4.400000e+00	nan	nan	nan
+4.400000e+00	4.450000e+00	nan	nan	nan
+4.450000e+00	4.500000e+00	nan	nan	nan
+4.500000e+00	4.550000e+00	nan	nan	nan
+4.550000e+00	4.600000e+00	nan	nan	nan
+4.600000e+00	4.650000e+00	nan	nan	nan
+4.650000e+00	4.700000e+00	nan	nan	nan
+4.700000e+00	4.750000e+00	nan	nan	nan
+4.750000e+00	4.800000e+00	nan	nan	nan
+4.800000e+00	4.850000e+00	nan	nan	nan
+4.850000e+00	4.900000e+00	nan	nan	nan
+4.900000e+00	4.950000e+00	nan	nan	nan
+4.950000e+00	5.000000e+00	nan	nan	nan
+# END HISTO1D
+

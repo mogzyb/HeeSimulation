@@ -1,0 +1,23 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Number of $\tau$ tags per $R=0.4$ jet
+XLabel=$N_{\tau\,\mathrm{tag}}$
+DrawOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numTauTagsPer04Jet
+LegendOnly=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numTauTagsPer04Jet
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numTauTagsPer04Jet
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-/Analysis.yoda/MC_JETTAGS/numTauTagsPer04Jet
+ScaledBy=4.16481299520453472e-11
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	9.954456e-01	8.356379e-03	8.356379e-03
+5.000000e-01	1.500000e+00	4.554390e-03	5.649026e-04	5.649026e-04
+1.500000e+00	2.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

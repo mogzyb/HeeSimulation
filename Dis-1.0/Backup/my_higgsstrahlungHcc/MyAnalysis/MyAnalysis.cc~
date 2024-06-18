@@ -1,0 +1,291 @@
+// -*- C++ -*-
+#include "Rivet/Analysis.hh"
+#include "Rivet/Projections/ChargedFinalState.hh"
+#include "Rivet/Projections/ZFinder.hh"
+#include "Rivet/Projections/Thrust.hh"
+#include "Rivet/Projections/Hemispheres.hh"
+#include "Rivet/Projections/Sphericity.hh"
+#include "Rivet/Projections/ParisiTensor.hh"
+#include "Rivet/Projections/Beam.hh"
+
+#include <algorithm>
+
+namespace Rivet {
+
+
+  /// Analysis looking at various distributions of final state particles
+  class MyAnalysis : public Analysis {
+  public:
+
+    /// Constructor
+    RIVET_DEFAULT_ANALYSIS_CTOR(MyAnalysis);
+
+
+    /// @name Analysis methods
+    //@{
+
+    /// Book histograms and initialise projections before the run
+    void init() {
+      // Projections
+      FinalState fs;
+      
+      
+      declare(Beam(), "Beams");
+      ZFinder zf(fs,Cuts::open(),13,91.2-5,91.2+5);
+      //ZFinder hf(fs,Cuts::open(),5,125.4-5,125.4+5);
+      declare(zf, "ZF");
+      //declare(hf, "HF");
+      VetoedFinalState jet_fs(fs);
+      jet_fs.addVetoOnThisFinalState(zf);
+      //jet_fs.addVetoOnThisFinalState(hf); 
+      //VetoedFinalState fs(Cuts::abseta < 5 && Cuts::pT > 500*MeV);
+      //fs.addVetoOnThisFinalState(getProjection<ZFinder>("ZF"));
+      declare(jet_fs, "FS");
+      declare(ChargedFinalState(jet_fs), "CFS");
+      declare(Thrust(jet_fs), "Thrust");
+      declare(Sphericity(jet_fs), "Sphericity");
+      declare(ParisiTensor(jet_fs), "Parisi");
+      declare(Hemispheres(Thrust(jet_fs)), "Hemispheres");
+  
+
+
+
+
+      // Histograms   
+      book(_histMass,       "Mass",      100,  0, 300);      
+      book(_histMult,       "Mult",      100,  0, 100);
+      book(_histMultCh,     "MultCh",    100,  0, 100);
+      book(_histPt,         "Pt",        100,  0, 150);
+      book(_histPtCh,       "PtCh",      100,  0, 150);
+      book(_histE,          "E",         100,  0, 150);
+      book(_histECh,        "ECh",       100,  0, 150);
+      book(_histEtaSumEt,   "EtaSumEt",   100,  0, 5);
+      book(_histEta,        "Eta",        100, -5, 5);
+      book(_histEtaCh,      "EtaCh",      100, -5, 5);
+      book(_histRapidity,   "Rapidity",   100, -5, 5);
+      book(_histRapidityCh, "RapidityCh", 100, -5, 5);
+      book(_histPhi,        "Phi",        100,  0, TWOPI);
+      book(_histPhiCh,      "PhiCh",      100,  0, TWOPI);
+
+      book(_tmphistEtaPlus,    "TMP/EtaPlus",    100, 0, 5);
+      book(_tmphistEtaMinus,   "TMP/EtaMinus",   100, 0, 5);
+      book(_tmphistEtaChPlus,  "TMP/EtaChPlus",  100, 0, 5);
+      book(_tmphistEtaChMinus, "TMP/EtaChMinus", 100, 0, 5);
+      book(_tmphistRapPlus,    "TMP/RapPlus",    100, 0, 5);
+      book(_tmphistRapMinus,   "TMP/RapMinus",   100, 0, 5);
+      book(_tmphistRapChPlus,  "TMP/RapChPlus",  100, 0, 5);
+      book(_tmphistRapChMinus, "TMP/RapChMinus", 100, 0, 5);
+      book(_histEtaPMRatio,        "EtaPMRatio");
+      book(_histEtaChPMRatio,      "EtaChPMRatio");
+      book(_histRapidityPMRatio,   "RapidityPMRatio");
+      book(_histRapidityChPMRatio, "RapidityChPMRatio");
+
+      book(_histZMom,   "ZM",          100,    0, 100);
+      book(_histZ_mass, "Z_mass",       100, 71.0, 111.0);
+      book(_histZ_pT,   "Z_pT",
+	   logspace(100, 1.0, 0.5*(sqrtS()>0.?sqrtS():14000.)/GeV));
+      book(_histZ_pT_peak, "Z_pT_peak", 100, 40.0, 60.0);
+      book(_histZ_y,       "Z_y",       100, -4.0, 4.0);
+      book(_histZ_phi ,    "Z_phi",     100,  0.0, TWOPI);
+      book(_histH_massAdd,    "H_massAdd",    100,    0, 240);
+      book(_histH_massSub,    "H_massSub",    100,    0, 240);
+      book(_histH_massDif,    "H_massDif",    100,    0, 240);
+      
+      book(_histH_T,    "H_T",    100,    0, 1);
+      book(_histH_S,    "H_S",    100,    0, 1);
+      book(_histH_A,    "H_A",    100,    0, 1);
+      book(_histH_C,    "H_C",    100,    0, 1);
+      book(_histH_BMax,    "H_BMax",    100,    0, 1);
+      book(_histH_BMin,    "H_BMin",    100,    0, 1);
+      book(_histH_BSum,    "H_BSum",    100,    0, 1);
+      book(_histH_BDiff,    "H_BDiff",    100,    0, 1);
+      
+      //book(_h_H_pT ,"H_pT", logspace(100, 1.0, 0.5*(sqrtS()>0.?sqrtS():14000.)/GeV));
+      //book(_h_H_pT_peak ,"H_pT_peak", 25, 0.0, 25.0);
+      //book(_h_H_y ,"H_y", 40, -4, 4);
+      //book(_h_H_phi ,"H_phi", 25, 0.0, TWOPI);
+
+    }
+
+
+    /// Perform the per-event analysis
+    void analyze(const Event& event) {
+      // Charged + neutral final state
+      const ZFinder& zf     = apply<ZFinder>(event, "ZF");
+      const FinalState& fs  = apply<FinalState>(event, "FS");
+      const FinalState& cfs = apply<FinalState>(event, "CFS");
+      if(zf.bosons().size()!=1) vetoEvent;
+      Particles allp = fs.particlesByPt();
+      const FourMomentum& zmom = zf.bosons()[0].momentum();
+      const FourMomentum& fmom = allp[0].momentum();
+      const ParticlePair& beams = apply<Beam>(event, "Beams").beams();
+
+		//double HThrust =0;
+		
+      // this is the mass of the particle with the largest pT - what
+      // exactly do you learn from it?
+      _histMass->fill(fmom.p());
+      // this is the multiplicity of everything but the Z (I think)
+      MSG_DEBUG("Total multiplicity = " << fs.size());
+      _histMult->fill(fs.size());
+      // everything to do with the Z
+      _histZ_mass->fill(zmom.mass()/GeV);
+      _histZ_pT->fill(zmom.pT()/GeV);
+      _histZ_pT_peak->fill(zmom.pT()/GeV);
+      _histZ_y->fill(zmom.rapidity());
+      _histZ_phi->fill(zmom.phi());
+
+      // Here I initialise the four-momentum.
+      FourMomentum hmom(0.,0.,0.,0.);
+      for (const Particle& p : fs.particles()) {
+	// adding the four-momentum of the particle.
+	hmom += p.momentum();
+	// all the other things you fill
+        _histEta->fill(p.eta());
+        _histEtaSumEt->fill(p.abseta(), p.Et());
+        _histRapidity->fill(p.rap());
+        _histPt->fill(p.pT()/GeV);
+        _histE->fill(p.E()/GeV);
+        _histPhi->fill(p.phi());
+        (p.eta() > 0 ? _tmphistEtaPlus : _tmphistEtaMinus)->fill(p.abseta());
+        (p.rap() > 0 ? _tmphistRapPlus : _tmphistRapMinus)->fill(p.absrap());
+	if (zmom.pT()>0.0) _histZMom->fill(zmom.pT()/GeV);     		  
+      } 
+      
+      
+
+      
+      _histH_massAdd->fill(hmom.mass()/GeV);
+      _histH_massSub->fill((beams.first.p3().mod() + beams.second.p3().mod()-(zf.constituents()[0].momentum().p())-(zf.constituents()[1].momentum().p()))/GeV);
+      _histH_massDif->fill(((beams.first.p3().mod() + beams.second.p3().mod()-(zf.constituents()[0].momentum().p())-(zf.constituents()[1].momentum().p()))/hmom.mass())/GeV);
+      //_h_H_pT->fill(hmom.pT()/GeV);
+      //_h_H_pT_peak->fill(hmom.pT()/GeV);
+      //_h_H_y->fill(hmom.rapidity());
+      //_h_H_phi->fill(hmom.phi());
+      //const FourMomentum& hmom = hf.bosons()[0].momentum();
+
+      // Lorentz boost to CM frame
+      FourMomentum CM = zmom+hmom;    
+      
+      LorentzTransform LT = LorentzTransform::mkFrameTransform(hmom);
+		Particles higgsDecayProducts;
+		for(Particle p: fs.particles()) {
+			p.transformBy(LT);
+			higgsDecayProducts.push_back(p);
+		}
+
+		Thrust thrust;
+		thrust.calc(higgsDecayProducts);
+		_histH_T->fill(thrust.thrust());
+      
+      Sphericity sphericity;
+      sphericity.calc(higgsDecayProducts);
+      _histH_S->fill(sphericity.sphericity());
+      _histH_A->fill(sphericity.aplanarity());
+      
+		const ParisiTensor& parisi = apply<ParisiTensor>(event, "Parisi");      
+      
+      //ParisiTensor parisi(higgsDecayProducts);
+      //parisi.calc(higgsDecayProducts);
+      _histH_C->fill(parisi.C());
+      
+		//const Hemispheres& hemi = apply<Hemispheres>(event, "Hemispheres");      
+      
+		Hemispheres hemi(thrust);
+		//for (const Particle& p : higgsDecayProducts) {
+		//hemi.calc(p);
+		_histH_BMax->fill(hemi.Bmax());
+      _histH_BMin->fill(hemi.Bmin());
+      _histH_BSum->fill(hemi.Bsum());
+      _histH_BDiff->fill(hemi.Bdiff());
+      //}
+		
+      // Same for the charged FS particles only      
+      MSG_DEBUG("Total charged multiplicity = " << cfs.size());
+      _histMultCh->fill(cfs.size());
+      for (const Particle& p : cfs.particles()) {
+        _histEtaCh->fill(p.eta());
+        _histRapidityCh->fill(p.rap());
+        _histPtCh->fill(p.pT()/GeV);
+        _histECh->fill(p.E()/GeV);
+        _histPhiCh->fill(p.phi());
+        (p.eta()>0? _tmphistEtaChPlus:_tmphistEtaChMinus)->fill(p.abseta());
+        (p.rap()>0? _tmphistRapChPlus:_tmphistRapChMinus)->fill(p.absrap());
+      }     
+    }
+
+
+    /// Finalize
+    void finalize() {
+      normalize(_histMult);
+      normalize(_histEta);
+      normalize(_histRapidity);
+      normalize(_histZMom);
+      normalize(_histMass);
+      normalize(_histZ_mass);
+      normalize(_histZ_pT);
+      normalize(_histZ_pT_peak);
+      normalize(_histZ_y);
+      normalize(_histZ_phi);
+      normalize(_histH_massAdd);
+      normalize(_histH_massSub);
+      normalize(_histH_massDif);
+      // normalize(_h_H_pT);
+      // normalize(_h_H_pT_peak);
+      // normalize(_h_H_y);
+      // normalize(_h_H_phi);
+      normalize(_histPt);
+      normalize(_histE);
+      normalize(_histPhi);
+      normalize(_histMultCh);
+      normalize(_histEtaCh);
+      normalize(_histRapidityCh); 
+      normalize(_histPtCh);
+      normalize(_histECh);
+      normalize(_histPhiCh);
+      normalize(_histH_T); 
+      normalize(_histH_S);   
+      normalize(_histH_A);
+      normalize(_histH_C);  
+      normalize(_histH_BMax);  
+		normalize(_histH_BMin);
+		normalize(_histH_BSum);
+		normalize(_histH_BDiff);      
+      
+      divide(_tmphistEtaPlus, _tmphistEtaMinus, _histEtaPMRatio);
+      divide(_tmphistEtaChPlus, _tmphistEtaChMinus, _histEtaChPMRatio);
+      divide(_tmphistRapPlus, _tmphistRapMinus, _histRapidityPMRatio);
+      divide(_tmphistRapChPlus, _tmphistRapChMinus, _histRapidityChPMRatio);
+      
+    }
+
+    //@}
+
+
+  private:
+
+    /// @name Histograms
+    //@{
+    Histo1DPtr _histMult, _histEta, _histRapidity, _histPt, _histE, _histPhi, _histZMom, _histZ_mass, _histZ_pT, _histZ_pT_peak, _histZ_y, _histZ_phi;
+    Histo1DPtr _histMultCh,  _histEtaCh, _histRapidityCh, _histPtCh, _histECh, _histPhiCh, _histH_massAdd, _histH_massSub, _histH_massDif; //_h_H_pT, _h_H_pT_peak, _h_H_y, _h_H_phi;
+    Histo1DPtr _histMass;
+    Histo1DPtr _histH_T, _histH_S, _histH_A, _histH_BMax, _histH_BMin, _histH_BSum, _histH_BDiff;
+    Histo1DPtr _histH_C;
+    Profile1DPtr _histEtaSumEt;
+    Scatter2DPtr _histEtaPMRatio, _histEtaChPMRatio, _histRapidityPMRatio, _histRapidityChPMRatio;
+    //@}
+
+    /// @name Temporary histos used to calculate +/- rapidity ratio plots
+    //@{
+    Histo1DPtr _tmphistEtaPlus, _tmphistEtaMinus, _tmphistEtaChPlus, _tmphistEtaChMinus;
+    Histo1DPtr _tmphistRapPlus, _tmphistRapMinus, _tmphistRapChPlus, _tmphistRapChMinus;
+    //@}
+
+  };
+
+
+  // The hook for the plugin system
+  RIVET_DECLARE_PLUGIN(MyAnalysis);
+
+}
+

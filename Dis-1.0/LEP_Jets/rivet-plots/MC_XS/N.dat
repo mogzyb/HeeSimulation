@@ -1,0 +1,24 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of generated events
+XLabel=
+YLabel=$N$
+XCustomMajorTicks=0.5	$\quad$
+XMinorTickMarks=0
+LegendXPos=0.05
+LegendYPos=0.15
+DrawOnly=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/N
+LegendOnly=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/N
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/N
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/N
+ScaledBy=1.00000000000000000e+00
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.000000e+05	3.162278e+02	3.162278e+02
+# END HISTO1D
+

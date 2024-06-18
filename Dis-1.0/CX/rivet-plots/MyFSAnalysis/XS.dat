@@ -1,0 +1,18 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+DrawOnly=//mt/home/mbridge/Work/CX/Analysis.yoda/MyFSAnalysis/XS
+LegendOnly=//mt/home/mbridge/Work/CX/Analysis.yoda/MyFSAnalysis/XS
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/CX/Analysis.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.000171738489, dn: 0.000171738489}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/CX/Analysis.yoda/MyFSAnalysis/XS
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	2.531584e-01	1.717385e-04	1.717385e-04
+# END HISTO1D
+

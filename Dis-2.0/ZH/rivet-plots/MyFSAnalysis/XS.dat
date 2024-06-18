@@ -1,0 +1,17 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+DrawOnly=//home/mogzyb/Work/Dis-2.0/ZH/Analysis.yoda/MyFSAnalysis/XS
+LegendOnly=//home/mogzyb/Work/Dis-2.0/ZH/Analysis.yoda/MyFSAnalysis/XS
+# END PLOT
+
+# BEGIN HISTO1D //home/mogzyb/Work/Dis-2.0/ZH/Analysis.yoda/MyFSAnalysis/XS
+ErrorBreakdown={0: {"": {up: 1.2153818699999999e-05, dn: 1.2153818699999999e-05}}}
+LineColor=red
+LineStyle=solid
+Path=//home/mogzyb/Work/Dis-2.0/ZH/Analysis.yoda/MyFSAnalysis/XS
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	7.925286e-03	1.215382e-05	1.215382e-05
+# END HISTO1D
+

@@ -1,0 +1,17 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+DrawOnly=//mt/home/mbridge/Work/MyHiggsstrahlungV2/MyHiggsstrahlungHZZ/Analysis.yoda/MyFSAnalysis/XS
+LegendOnly=//mt/home/mbridge/Work/MyHiggsstrahlungV2/MyHiggsstrahlungHZZ/Analysis.yoda/MyFSAnalysis/XS
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/MyHiggsstrahlungHZZ/Analysis.yoda/MyFSAnalysis/XS
+ErrorBreakdown={0: {"": {up: 4.9710117299999999e-07, dn: 4.9710117299999999e-07}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/MyHiggsstrahlungHZZ/Analysis.yoda/MyFSAnalysis/XS
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	3.241573e-04	4.971012e-07	4.971012e-07
+# END HISTO1D
+

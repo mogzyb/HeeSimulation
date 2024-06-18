@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Plots from Rivet analyses &ndash; MC_FSPARTICLES</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body>
+<section id="ana_MC_FSPARTICLES">
+<h3>MC_FSPARTICLES</h3>
+<p><a href="../index.html">Back to index</a></p>
+<p>
+  Generic analysis of typical per-particle distributions such as $\eta$, $y$, $pT$, $\phi$, etc.
+</p>
+<form onsubmit="var patt = document.getElementById('patt_MC_FSPARTICLES').value; filterPlots('MC_FSPARTICLES', patt); return false;">
+<span>Filter plots:&nbsp;</span><input id="patt_MC_FSPARTICLES" type="search">
+<input type="submit" value="Filter">
+</form>
+
+  <div class="plot" id="plot_E" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-E">&#9875;</a><a href="E.dat">&#8984</a> E:<br/>
+    <a name="MC_FSPARTICLES-E"><a href="E.pdf">
+      <img src="E.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ECh" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-ECh">&#9875;</a><a href="ECh.dat">&#8984</a> ECh:<br/>
+    <a name="MC_FSPARTICLES-ECh"><a href="ECh.pdf">
+      <img src="ECh.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Eta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-Eta">&#9875;</a><a href="Eta.dat">&#8984</a> Eta:<br/>
+    <a name="MC_FSPARTICLES-Eta"><a href="Eta.pdf">
+      <img src="Eta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_EtaCh" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-EtaCh">&#9875;</a><a href="EtaCh.dat">&#8984</a> EtaCh:<br/>
+    <a name="MC_FSPARTICLES-EtaCh"><a href="EtaCh.pdf">
+      <img src="EtaCh.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_EtaChPMRatio" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-EtaChPMRatio">&#9875;</a><a href="EtaChPMRatio.dat">&#8984</a> EtaChPMRatio:<br/>
+    <a name="MC_FSPARTICLES-EtaChPMRatio"><a href="EtaChPMRatio.pdf">
+      <img src="EtaChPMRatio.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_EtaPMRatio" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-EtaPMRatio">&#9875;</a><a href="EtaPMRatio.dat">&#8984</a> EtaPMRatio:<br/>
+    <a name="MC_FSPARTICLES-EtaPMRatio"><a href="EtaPMRatio.pdf">
+      <img src="EtaPMRatio.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_EtaSumEt" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-EtaSumEt">&#9875;</a><a href="EtaSumEt.dat">&#8984</a> EtaSumEt:<br/>
+    <a name="MC_FSPARTICLES-EtaSumEt"><a href="EtaSumEt.pdf">
+      <img src="EtaSumEt.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Mult" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-Mult">&#9875;</a><a href="Mult.dat">&#8984</a> Mult:<br/>
+    <a name="MC_FSPARTICLES-Mult"><a href="Mult.pdf">
+      <img src="Mult.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_MultCh" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-MultCh">&#9875;</a><a href="MultCh.dat">&#8984</a> MultCh:<br/>
+    <a name="MC_FSPARTICLES-MultCh"><a href="MultCh.pdf">
+      <img src="MultCh.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Phi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-Phi">&#9875;</a><a href="Phi.dat">&#8984</a> Phi:<br/>
+    <a name="MC_FSPARTICLES-Phi"><a href="Phi.pdf">
+      <img src="Phi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_PhiCh" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-PhiCh">&#9875;</a><a href="PhiCh.dat">&#8984</a> PhiCh:<br/>
+    <a name="MC_FSPARTICLES-PhiCh"><a href="PhiCh.pdf">
+      <img src="PhiCh.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Pt" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-Pt">&#9875;</a><a href="Pt.dat">&#8984</a> Pt:<br/>
+    <a name="MC_FSPARTICLES-Pt"><a href="Pt.pdf">
+      <img src="Pt.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_PtCh" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-PtCh">&#9875;</a><a href="PtCh.dat">&#8984</a> PtCh:<br/>
+    <a name="MC_FSPARTICLES-PtCh"><a href="PtCh.pdf">
+      <img src="PtCh.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Rapidity" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-Rapidity">&#9875;</a><a href="Rapidity.dat">&#8984</a> Rapidity:<br/>
+    <a name="MC_FSPARTICLES-Rapidity"><a href="Rapidity.pdf">
+      <img src="Rapidity.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_RapidityCh" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-RapidityCh">&#9875;</a><a href="RapidityCh.dat">&#8984</a> RapidityCh:<br/>
+    <a name="MC_FSPARTICLES-RapidityCh"><a href="RapidityCh.pdf">
+      <img src="RapidityCh.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_RapidityChPMRatio" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-RapidityChPMRatio">&#9875;</a><a href="RapidityChPMRatio.dat">&#8984</a> RapidityChPMRatio:<br/>
+    <a name="MC_FSPARTICLES-RapidityChPMRatio"><a href="RapidityChPMRatio.pdf">
+      <img src="RapidityChPMRatio.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_RapidityPMRatio" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_FSPARTICLES-RapidityPMRatio">&#9875;</a><a href="RapidityPMRatio.dat">&#8984</a> RapidityPMRatio:<br/>
+    <a name="MC_FSPARTICLES-RapidityPMRatio"><a href="RapidityPMRatio.pdf">
+      <img src="RapidityPMRatio.png">
+    </a></a>
+  </div>
+</section>
+
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Friday, 12. January 2024 11:08PM</p>
+</footer>
+
+</body>
+</html>

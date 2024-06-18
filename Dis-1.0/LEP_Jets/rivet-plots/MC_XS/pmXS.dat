@@ -1,0 +1,27 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Fraction of positive and negative weighted events
+XLabel=$\mathrm{sgn}(w)$
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+YLabel=$\mathrm{d}\sigma/\mathrm{d~sgn}(w)$ [pb]
+ShowZero=0
+XMinorTickMarks=0
+XMin=-1
+XMax=1
+LegendXPos=0.05
+DrawOnly=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/pmXS
+LegendOnly=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/pmXS
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/pmXS
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/LEP_Jets/Analysis.yoda/MC_XS/pmXS
+ScaledBy=1.75151072178530776e-07
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+0.000000e+00	1.000000e+00	2.948394e+04	9.324764e+01	9.324764e+01
+# END HISTO1D
+

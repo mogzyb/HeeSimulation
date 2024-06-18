@@ -1,0 +1,479 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+GofLegend=1
+LegendAlign=r
+DrawOnly=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+1%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+2%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+3%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+4%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+5%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+6%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+7%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+8%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+9%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+10%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+20%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+30%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+40%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+50%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+60%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+70%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+80%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+90%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+100%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-1%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-2%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-3%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-4%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-5%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-6%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-7%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-8%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-9%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-10%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-20%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-30%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-40%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-50%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-60%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-70%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-80%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-90%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-100%.yoda/MyFSAnalysis/XS
+LegendOnly=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+1%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+2%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+3%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+4%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+5%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+6%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+7%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+8%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+9%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+10%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+20%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+30%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+40%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+50%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+60%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+70%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+80%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+90%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+100%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-1%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-2%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-3%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-4%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-5%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-6%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-7%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-8%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-9%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-10%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-20%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-30%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-40%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-50%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-60%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-70%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-80%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-90%.yoda/MyFSAnalysis/XS //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-100%.yoda/MyFSAnalysis/XS
+RatioPlot=1
+RatioPlotReference=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5064162100000001e-06, dn: 3.5064162100000001e-06}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.636927e-03	3.506416e-06	3.506416e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+1%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5113134900000002e-06, dn: 3.5113134900000002e-06}}}
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+1%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+1\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.633272e-03	3.511313e-06	3.511313e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+2%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.51046011e-06, dn: 3.51046011e-06}}}
+LineColor=green
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+2%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+2\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.637119e-03	3.510460e-06	3.510460e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+3%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5119174899999999e-06, dn: 3.5119174899999999e-06}}}
+LineColor=orange
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+3%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+3\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.634724e-03	3.511917e-06	3.511917e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+4%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5169142200000001e-06, dn: 3.5169142200000001e-06}}}
+LineColor=lilac
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+4%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+4\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.635833e-03	3.516914e-06	3.516914e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+5%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5171285500000002e-06, dn: 3.5171285500000002e-06}}}
+LineColor=red
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+5%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+5\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.635129e-03	3.517129e-06	3.517129e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+6%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5128985299999998e-06, dn: 3.5128985299999998e-06}}}
+LineColor=blue
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+6%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+6\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.643471e-03	3.512899e-06	3.512899e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+7%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5143023300000002e-06, dn: 3.5143023300000002e-06}}}
+LineColor=green
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+7%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+7\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.642854e-03	3.514302e-06	3.514302e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+8%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.51414443e-06, dn: 3.51414443e-06}}}
+LineColor=orange
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+8%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+8\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.643955e-03	3.514144e-06	3.514144e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+9%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5096546899999998e-06, dn: 3.5096546899999998e-06}}}
+LineColor=lilac
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+9%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+9\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.650174e-03	3.509655e-06	3.509655e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+10%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.51250245e-06, dn: 3.51250245e-06}}}
+LineColor=red
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+10%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+10\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.649050e-03	3.512502e-06	3.512502e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+20%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5226426600000001e-06, dn: 3.5226426600000001e-06}}}
+LineColor=blue
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+20%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+20\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.660950e-03	3.522643e-06	3.522643e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+30%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5247086000000002e-06, dn: 3.5247086000000002e-06}}}
+LineColor=green
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+30%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+30\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.675230e-03	3.524709e-06	3.524709e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+40%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5290600499999999e-06, dn: 3.5290600499999999e-06}}}
+LineColor=orange
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+40%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+40\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.690756e-03	3.529060e-06	3.529060e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+50%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5340146999999999e-06, dn: 3.5340146999999999e-06}}}
+LineColor=lilac
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+50%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+50\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.706749e-03	3.534015e-06	3.534015e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+60%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.54080027e-06, dn: 3.54080027e-06}}}
+LineColor=red
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+60%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+60\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.720297e-03	3.540800e-06	3.540800e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+70%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5420978799999999e-06, dn: 3.5420978799999999e-06}}}
+LineColor=blue
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+70%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+70\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.734597e-03	3.542098e-06	3.542098e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+80%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5505606899999999e-06, dn: 3.5505606899999999e-06}}}
+LineColor=green
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+80%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+80\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.743346e-03	3.550561e-06	3.550561e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+90%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.56119963e-06, dn: 3.56119963e-06}}}
+LineColor=orange
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+90%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+90\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.751310e-03	3.561200e-06	3.561200e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+100%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.55784989e-06, dn: 3.55784989e-06}}}
+LineColor=lilac
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc+100%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc+100\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.772526e-03	3.557850e-06	3.557850e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-1%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5031039199999998e-06, dn: 3.5031039199999998e-06}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-1%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-1\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.635441e-03	3.503104e-06	3.503104e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-2%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5036212099999999e-06, dn: 3.5036212099999999e-06}}}
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-2%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-2\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.632874e-03	3.503621e-06	3.503621e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-3%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.50389245e-06, dn: 3.50389245e-06}}}
+LineColor=green
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-3%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-3\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.632609e-03	3.503892e-06	3.503892e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-4%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5099221500000001e-06, dn: 3.5099221500000001e-06}}}
+LineColor=orange
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-4%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-4\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.627389e-03	3.509922e-06	3.509922e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-5%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5034281700000001e-06, dn: 3.5034281700000001e-06}}}
+LineColor=lilac
+LineStyle=solid
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-5%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-5\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.626454e-03	3.503428e-06	3.503428e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-6%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.50701714e-06, dn: 3.50701714e-06}}}
+LineColor=red
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-6%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-6\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.626530e-03	3.507017e-06	3.507017e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-7%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5028276800000002e-06, dn: 3.5028276800000002e-06}}}
+LineColor=blue
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-7%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-7\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.625091e-03	3.502828e-06	3.502828e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-8%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4980960800000002e-06, dn: 3.4980960800000002e-06}}}
+LineColor=green
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-8%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-8\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.629722e-03	3.498096e-06	3.498096e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-9%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.50712673e-06, dn: 3.50712673e-06}}}
+LineColor=orange
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-9%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-9\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.616894e-03	3.507127e-06	3.507127e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-10%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.5038555400000001e-06, dn: 3.5038555400000001e-06}}}
+LineColor=lilac
+LineStyle=dashed
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-10%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-10\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.616918e-03	3.503856e-06	3.503856e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-20%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4959990199999999e-06, dn: 3.4959990199999999e-06}}}
+LineColor=red
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-20%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-20\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.606571e-03	3.495999e-06	3.495999e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-30%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4864996100000001e-06, dn: 3.4864996100000001e-06}}}
+LineColor=blue
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-30%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-30\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.593452e-03	3.486500e-06	3.486500e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-40%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4762480100000002e-06, dn: 3.4762480100000002e-06}}}
+LineColor=green
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-40%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-40\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.580928e-03	3.476248e-06	3.476248e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-50%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4783255799999998e-06, dn: 3.4783255799999998e-06}}}
+LineColor=orange
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-50%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-50\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.558877e-03	3.478326e-06	3.478326e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-60%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4680376399999998e-06, dn: 3.4680376399999998e-06}}}
+LineColor=lilac
+LineStyle=dashdotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-60%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-60\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.544845e-03	3.468038e-06	3.468038e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-70%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4691666500000001e-06, dn: 3.4691666500000001e-06}}}
+LineColor=red
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-70%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-70\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.521873e-03	3.469167e-06	3.469167e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-80%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4573579999999998e-06, dn: 3.4573579999999998e-06}}}
+LineColor=blue
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-80%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-80\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.512372e-03	3.457358e-06	3.457358e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-90%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.45593887e-06, dn: 3.45593887e-06}}}
+LineColor=green
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-90%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-90\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.486963e-03	3.455939e-06	3.455939e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-100%.yoda/MyFSAnalysis/XS
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 3.4504142100000001e-06, dn: 3.4504142100000001e-06}}}
+LineColor=orange
+LineStyle=dotted
+Path=//mt/home/mbridge/Work/MyHiggsstrahlungV2/tmp/Analysisbgwzc-100%.yoda/MyFSAnalysis/XS
+Title=Analysisbgwzc-100\%
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.470001e-03	3.450414e-06	3.450414e-06
+# END HISTO1D
+

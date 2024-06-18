@@ -1,0 +1,34 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Pseudorapidity $+/-$ ratio of third jet
+XLabel=$|\eta(\mathrm{jet~3}|$
+YLabel=$\eta(\mathrm{jet~3})_+/\eta(\mathrm{jet~3})_-$
+DrawOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_eta_pmratio_3
+LegendOnly=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_eta_pmratio_3
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_eta_pmratio_3
+ErrorBreakdown={0: {"": {up: 0.0069168912553752302, dn: 0.0069168912553752302}}, 1: {"": {up: 0.0074611833957550517, dn: 0.0074611833957550517}}, 2: {"": {up: 0.008855191800143979, dn: 0.008855191800143979}}, 3: {"": {up: 0.011602773157263744, dn: 0.011602773157263744}}, 4: {"": {up: 0.017088639174417396, dn: 0.017088639174417396}}, 5: {"": {up: 0.031735430133175799, dn: 0.031735430133175799}}, 6: {"": {up: 0.076778561689910679, dn: 0.076778561689910679}}, 7: {"": {up: .nan, dn: .nan}}, 8: {"": {up: .nan, dn: .nan}}, 9: {"": {up: .nan, dn: .nan}}, 10: {"": {up: .nan, dn: .nan}}, 11: {"": {up: .nan, dn: .nan}}, 12: {"": {up: .nan, dn: .nan}}, 13: {"": {up: .nan, dn: .nan}}, 14: {"": {up: .nan, dn: .nan}}}
+LineColor=red
+LineStyle=solid
+Path=//mt/home/mbridge/Work/e+e-120GeV/Analysis.yoda/MC_JETS/jet_eta_pmratio_3
+Title=Analysis
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	3.333334e-01	1.006598e+00	6.916891e-03	6.916891e-03
+3.333333e-01	6.666667e-01	9.963386e-01	7.461183e-03	7.461183e-03
+6.666666e-01	1.000000e+00	9.859868e-01	8.855192e-03	8.855192e-03
+1.000000e+00	1.333334e+00	9.803786e-01	1.160277e-02	1.160277e-02
+1.333333e+00	1.666667e+00	9.755803e-01	1.708864e-02	1.708864e-02
+1.666666e+00	2.000000e+00	9.688870e-01	3.173543e-02	3.173543e-02
+2.000000e+00	2.333334e+00	9.292966e-01	7.677856e-02	7.677856e-02
+2.333333e+00	2.666667e+00	nan	nan	nan
+2.666666e+00	3.000000e+00	nan	nan	nan
+3.000000e+00	3.333334e+00	nan	nan	nan
+3.333333e+00	3.666667e+00	nan	nan	nan
+3.666666e+00	4.000000e+00	nan	nan	nan
+4.000000e+00	4.333334e+00	nan	nan	nan
+4.333333e+00	4.666667e+00	nan	nan	nan
+4.666666e+00	5.000000e+00	nan	nan	nan
+# END HISTO1D
+
